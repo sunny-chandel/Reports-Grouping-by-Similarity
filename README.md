@@ -12,18 +12,3 @@ The code reads in a CSV file containing pairs of related reports and groups them
   5.	Write the header row, which includes the names of the columns.
   6.	Iterate through each group, write each group to a row in the output CSV file. If a group does not have enough reports to fill all of the columns, leave       the remaining cells blank.
 
-# Sample input
-
-Report1,Report2
-Report2,Report3
-Report4,Report5
-Report6,Report7
-Report3,Report6
-
-
-# Sample Output
-
-Group Name,Report 1,Report 2,Report 3
-Group 1,Report1,Report2,Report3
-Group 2,Report4,Report5,        
-Group 3,Report6,Report7,Report3
